@@ -1,0 +1,17 @@
+.home-section {
+    position: relative;
+    background-color: black;
+}
+
+.home-image-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 80%;
+    width: 40%;
+    background-image: url('../img/home-portrait.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
