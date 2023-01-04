@@ -14,7 +14,7 @@ const Navbar = () => {
         <header className='nav-header'>
             <div className='nav-container'>
                 <div className='nav-sub-container'>
-                    <h1 className='nav-logo'>Reece</h1>
+                    <h1 className='nav-logo'>R.C.</h1>
                     <nav>
                         <ul>
                             {navLinks.map((link, index) => {
