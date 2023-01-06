@@ -1,7 +1,7 @@
 import '../styles/Photos.css';
 import useOnScreen from '../hooks/useOnScreen';
-import { useRef } from 'react';
 import useNav from '../hooks/useNav';
+import Carousel from './Carousel';
 
 const Photos = () => {
     const photosRef = useNav('Photos');
@@ -9,7 +9,7 @@ const Photos = () => {
 
     return (
         <section ref={photosRef} id='Photos' className='photos-section'>
-            Photos
+            <Carousel/>
         </section>
     );
 }

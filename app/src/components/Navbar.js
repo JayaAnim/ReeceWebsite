@@ -3,7 +3,6 @@ import { NavContext } from '../context/navContext';
 import { useContext } from 'react';
 const Navbar = () => {
     const { activeLinkId } = useContext(NavContext);
-    console.log(activeLinkId);
 
     const navLinks = ['Home', 'About', 'Photos', 'CV', 'Contact'];
 

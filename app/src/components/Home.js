@@ -39,6 +39,7 @@ const Home = () => {
         <section ref={homeRef} id='Home' className='home-section'>
             <div className='home-image-container'>
                 <img src={homebackground} alt='portrait' className='home-image'/>
+                <div className='home-image-blur'/>
             </div>
             <div className='home-title-container'>
                 <div className='home-welcome-container'>
