@@ -9,6 +9,9 @@ const Photos = () => {
 
     return (
         <section ref={photosRef} id='Photos' className='photos-section'>
+            <div className='photos-title-container'>
+                <div className='photos-title'/>
+            </div>
             <Carousel/>
         </section>
     );

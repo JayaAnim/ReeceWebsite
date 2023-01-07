@@ -35,10 +35,13 @@ const About = () => {
 
         <section ref={aboutRef} id='About' className='about-section'>
             <div className='about-title-container'>
+                {/*
                 <div className='about-title'>
                     About Me
                 </div>
                 <img src={paintstroke} className='about-title-underline' alt='paint stroke underline'/>
+                */}
+                <div className='about-title'/>
             </div>
             <div className='about-card-container'>
                 <div className='about-card-sub-container'>
@@ -55,7 +58,7 @@ const About = () => {
                                     onInit={(typewriter) => {
                                         typewriter
                                         .pauseFor(1000)
-                                        .changeDelay(35)
+                                        .changeDelay(45)
                                         .typeString(aboutString)
                                         .start();
                                     }}

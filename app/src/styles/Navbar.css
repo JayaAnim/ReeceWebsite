@@ -43,7 +43,7 @@
     border: none;
 }
 
-.nav-sub-container button:not(.button-active)::before {
+.nav-sub-container button.button-inactive::before {
     content: '';
     position: absolute;
     height: 1px;
@@ -108,5 +108,7 @@
         width: 100%;
         height: 8%
     }
+
+    
 }
 
