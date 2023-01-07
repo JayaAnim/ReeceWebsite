@@ -52,7 +52,6 @@
     position: relative;
     width: 100%;
     height: 100%;
-    border: 5px solid yellow;
     background: rgba(18, 18, 18, .75);
     transform-style: preserve-3d;
     transition: transform 1500ms;
@@ -70,6 +69,7 @@
     transform: rotateY(180deg);
 }
 
+
 .about-card-front, .about-card-back {
     position: absolute;
     height: 100%;
@@ -80,6 +80,7 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     background: rgba(18, 18, 18, .75);
+    border: 5px solid yellow;
 }
 
 .about-card-front {
@@ -90,8 +91,7 @@
     line-height: 1.5;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
-    font-size: 1.3rem;
-    overflow: scroll;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -105,6 +105,7 @@
     color: yellow;
 }
 
+/*small length small width */
 @media (max-height: 668px) and (max-width: 650px) {
     .about-card-sub-container {
         width: 90%;
@@ -120,12 +121,14 @@
         line-height: 1.2;
         font-family: 'Lato', sans-serif;
         font-weight: 600;
-        font-size: 1.05rem;
+        font-size: 1.2rem;
         overflow: scroll;
     }
+
 }
 
-@media screen and (max-width: 650px) {
+/*long length small width*/
+@media (min-height: 669px) and (max-width: 650px) {
     .about-card-sub-container {
         width: 90%;
         height: 100%;
@@ -137,30 +140,19 @@
         display: flex;
         flex-direction: column;
         padding: 10px;
-        line-height: 1.2;
+        line-height: 1.4;
         font-family: 'Lato', sans-serif;
         font-weight: 600;
-        font-size: 1.2rem;
+        font-size: 1.35rem;
         overflow: scroll;
     }
 }
 
+/*medium length medium width*/
 @media (min-width: 651px) and (max-width: 950px) {
     .about-card-sub-container {
         width: 90%;
         height: 100%;
         perspective: 1500px;
-    }
-
-    .about-card-front {
-        transform: rotateY(180deg);
-        display: flex;
-        flex-direction: column;
-        padding: 5px;
-        line-height: 1.5;
-        font-family: 'Lato', sans-serif;
-        font-weight: 600;
-        font-size: 1.2rem;
-        overflow: scroll;
     }
 }
