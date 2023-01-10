@@ -102,6 +102,7 @@
     flex-direction: column;
     padding: 30px;
     line-height: 1.5;
+    color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
@@ -156,7 +157,7 @@
         flex-direction: column;
         padding: 10px;
         line-height: 1.4;
-        color: white
+        color: white;
         font-family: 'Lato', sans-serif;
         font-weight: 600;
         font-size: 1.35rem;
@@ -180,7 +181,7 @@
         flex-direction: column;
         padding: 10px;
         line-height: 1.4;
-        color: white
+        color: white;
         font-family: 'Lato', sans-serif;
         font-weight: 600;
         font-size: 1.35rem;
