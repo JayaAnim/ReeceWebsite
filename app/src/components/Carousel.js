@@ -77,7 +77,6 @@ const Carousel = () => {
                 <img src={headshot8} alt='reece headshot'/>
                 <img src={headshot9} alt='reece headshot'/>
             </div>
-
         </div>
     );
 }

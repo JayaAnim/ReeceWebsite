@@ -2,20 +2,19 @@
 
 .cv-section {
     position: relative;
-    height: 140vh;
+    height: 135vh;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 33% 33% 24% 10%;
 }
 
 .cv-title-container {
+    height: 15vh;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 15vh;
-    width: 100%;
 }
-
 
 .cv-title {
     font-family: 'Oswald', sans-serif;
@@ -38,89 +37,81 @@
     font-weight: 800;
 }
 
+.cv-list-left {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    justify-content: space-around;
+}
+
+.cv-list-item-left {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    position: relative;
+    padding-left: 2.5vw;
+}
+
+.cv-list-right {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    justify-content: space-around;
+    text-align: right;
+}
+
+.cv-list-item-right {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    position: relative;
+    padding-right: 2.5vw;
+}
+
 .theatre-container {
-    grid-column: 1;
+    grid-column: 2;
     grid-row: 1;
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: end;
-    align-items: start;
-    padding-right: 10%;
-}
-
-.cv-content-right {
-    text-align: right;
-    max-width: 70%;
-    height: 80%;
-    overflow: wrap;
-}
-
-.cv-content-left {
-    text-align: left;
-    max-width: 70%;
-    height: 80%;
-    overflow: wrap;
+    justify-content: start;
+    align-items: center;
 }
 
 .training-container {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 2;
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: start;
-    align-items: start;
-    padding-left: 10%;
+    justify-content: end;
+    align-items: center;
 }
 
 .skills-container {
-    grid-column: 1;
+    grid-column: 2;
     grid-row: 3;
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: end;
-    align-items: start;
-    padding-right: 10%;
+    justify-content: start;
+    align-items: center;
 }
 
-.web-media-container {
-    grid-column: 2;
+.webmedia-container {
+    grid-column: 1;
     grid-row: 4;
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: start;
-    align-items: start;
-    padding-left: 10%;
+    justify-content: end;
+    align-items: center;
 }
 
-.cv-container-title {
-    font-family: 'Oswald', sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    display: block;
-    width: auto;
-    height: auto;
-    padding-top: 0;
-}
-
-ul.cv-list-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 100%;
-    width: 100%;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.25rem;
-    font-weight: italic;
-    color: white;
-}
 
 .cv-line {
     position: absolute;
@@ -155,6 +146,19 @@ ul.cv-list-left {
     transform: translateX(-50%);
 }
 
+.cv-theatre-title {
+    font-family: 'Lato', sans-serif;
+    color: yellow;
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: bold;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateY(-25%);
+    padding-left: 2.5vw;
+}
+
 .cv-dot-2 {
     width: 10px;
     height: 10px;
@@ -164,6 +168,19 @@ ul.cv-list-left {
     top: 33%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.cv-training-title {
+    font-family: 'Lato', sans-serif;
+    color: yellow;
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: bold;
+    position: absolute;
+    top: 33%;
+    right: 50%;
+    transform: translateY(-25%);
+    padding-right: 2.5vw;
 }
 
 .cv-dot-3 {
@@ -177,6 +194,19 @@ ul.cv-list-left {
     transform: translate(-50%, -50%);
 }
 
+.cv-skills-title {
+    font-family: 'Lato', sans-serif;
+    color: yellow;
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: bold;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translateY(-25%);
+    padding-left: 2.5vw;
+}
+
 .cv-dot-4 {
     width: 10px;
     height: 10px;
@@ -187,6 +217,20 @@ ul.cv-list-left {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.cv-webmedia-title {
+    font-family: 'Lato', sans-serif;
+    color: yellow;
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: bold;
+    position: absolute;
+    top: 90%;
+    right: 50%;
+    transform: translateY(-25%);
+    padding-right: 2.5vw;
+}
+
 
 
 @media screen and (max-width: 800px) {
@@ -214,6 +258,18 @@ ul.cv-list-left {
         left: 8%;
         transform: translateX(-50%);
     }
+
+    .cv-theatre-title {
+        color: yellow;
+        font-size: 2rem;
+        font-style: bold;
+        font-family: 'Lato', sans-serif;
+        position: absolute;
+        top: 0;
+        left: 8%;
+        transform: translateY(-25%);
+        padding-left: 5vw;
+    }
     
     .cv-dot-2 {
         width: 10px;
@@ -224,6 +280,19 @@ ul.cv-list-left {
         top: 33%;
         left: 8%;
         transform: translate(-50%, -50%);
+    }
+
+    .cv-training-title {
+        font-family: 'Lato', sans-serif;
+        color: yellow;
+        font-size: 2rem;
+        font-weight: 800;
+        font-style: bold;
+        position: absolute;
+        top: 33%;
+        left: 8%;
+        transform: translateY(-25%);
+        padding-left: 5vw;
     }
     
     .cv-dot-3 {
@@ -237,6 +306,19 @@ ul.cv-list-left {
         transform: translate(-50%, -50%);
     }
 
+    .cv-skills-title {
+        font-family: 'Lato', sans-serif;
+        color: yellow;
+        font-size: 2rem;
+        font-weight: 800;
+        font-style: bold;
+        position: absolute;
+        top: 66%;
+        left: 8%;
+        transform: translateY(-25%);
+        padding-left: 5vw;
+    }
+
     .cv-dot-4 {
         width: 10px;
         height: 10px;
@@ -248,6 +330,20 @@ ul.cv-list-left {
         transform: translate(-50%, -50%);
     }
 
+    .cv-webmedia-title {
+        font-family: 'Lato', sans-serif;
+        color: yellow;
+        font-size: 2rem;
+        font-weight: 800;
+        font-style: bold;
+        position: absolute;
+        top: 90%;
+        left: 8%;
+        transform: translateY(-25%);
+        padding-left: 5vw;
+        width: 90%;
+    }
+
     .cv-section {
         position: relative;
         height: 150vh;
@@ -255,6 +351,7 @@ ul.cv-list-left {
         grid-template-columns: 8% 92%;
         grid-template-rows: 33% 33% 24% 10%;
     }
+
     
     .theatre-container {
         grid-column: 2;
@@ -264,8 +361,9 @@ ul.cv-list-left {
         display: flex;
         flex-direction: row;
         justify-content: start;
-        align-items: start;
-        padding-left: 5%;
+        align-items: end;
+        padding-bottom: 10px;
+
     }
     
     .training-container {
@@ -276,8 +374,8 @@ ul.cv-list-left {
         display: flex;
         flex-direction: row;
         justify-content: start;
-        align-items: start;
-        padding-left: 5%;
+        align-items: end;
+        padding-bottom: 10px;
     }
     
     .skills-container {
@@ -288,11 +386,11 @@ ul.cv-list-left {
         display: flex;
         flex-direction: row;
         justify-content: start;
-        align-items: start;
-        padding-left: 5%;
+        align-items: end;
+        padding-bottom: 10px;
     }
     
-    .web-media-container {
+    .webmedia-container {
         grid-column: 2;
         grid-row: 4;
         height: 100%;
@@ -300,22 +398,38 @@ ul.cv-list-left {
         display: flex;
         flex-direction: row;
         justify-content: start;
-        align-items: start;
-        padding-left: 5%;
+        align-items: end;
     }
 
-    .cv-content-right {
+    .cv-list-left {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 90%;
+        justify-content: space-around;
+    }
+
+    .cv-list-item-left {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.1rem;
+        position: relative;
+        padding-left: 5vw;
+    }
+
+    .cv-list-right {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 90%;
+        justify-content: space-around;
         text-align: left;
-        max-width: 90%;
-        height: 70%;
-        overflow: wrap;
     }
     
-    .cv-content-left {
-        text-align: left;
-        max-width: 90%;
-        height: 70%;
-        overflow: wrap;
+    .cv-list-item-right {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.1rem;
+        position: relative;
+        padding-left: 5vw;
     }
     
 }

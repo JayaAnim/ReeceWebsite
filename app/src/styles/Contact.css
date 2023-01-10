@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400;1,700&family=Oswald:wght@200;300;400;500;700&display=swap');
+
+.contact-section {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container {
+    border-top: solid yellow 2px;
+    height: 400px;
+    width: 800px;
+}
+
+.contact-title-container {
+    width: 100%;
+    height: 20%;
+}
+
+.contact-title {
+    background: yellow;
+    font-familY: 'Oswald', sans-serif;
+    font-size: 2.4rem;
+    color: black;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.contact-title::before {
+    content: 'Contact ';
+    font-weight: 200;
+}
+
+.contact-title::after {
+    content: 'Me';
+    font-weight: 900;
+    font-style: bold;
+}
+
+.contact-email {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icon {
+    font-size: 7rem;
+    color: yellow;
+}
+
+.contact-tag {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.creator-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: black;
+}
+
+.creator-link {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .contact-title {
+        background: yellow;
+        font-familY: 'Oswald', sans-serif;
+        font-size: 2rem;
+        color: black;
+        padding: 10px;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .contact-container {
+        display: block;
+        border-top: solid yellow 3px;
+        height: 400px;
+        width: 600px;
+    }
+
+    .contact-icon {
+        font-size: 5rem;
+        color: yellow;
+    }
+
+    .contact-tag {
+        font-family: 'Lato', sans-serif;
+        color: white;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .creator-footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 40px;
+        background: black;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .contact-title {
+        background: yellow;
+        font-familY: 'Oswald', sans-serif;
+        font-size: 1.75rem;
+        color: black;
+        padding: 10px;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .contact-container {
+        border-top: solid yellow 3px;
+        height: 70%;
+        width: 80%;
+    }
+
+    .contact-icon {
+        font-size: 5rem;
+        color: yellow;
+    }
+
+    .contact-tag {
+        font-family: 'Lato', sans-serif;
+        color: white;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .creator-footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 40px;
+        background: black;
+    }
+}
