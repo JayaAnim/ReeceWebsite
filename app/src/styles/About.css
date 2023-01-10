@@ -102,12 +102,10 @@
     flex-direction: column;
     padding: 30px;
     line-height: 1.5;
-    color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
     text-align: center;
-    z-index: 900;
 }
 
 .about-card-back {
@@ -135,9 +133,8 @@
         padding: 5px;
         line-height: 1.2;
         font-family: 'Lato', sans-serif;
-        color: white;
         font-weight: 600;
-        font-size: 1.2rem;
+        font-size: 1.15rem;
         overflow: scroll;
     }
 
@@ -157,12 +154,10 @@
         flex-direction: column;
         padding: 10px;
         line-height: 1.4;
-        color: white;
         font-family: 'Lato', sans-serif;
         font-weight: 600;
-        font-size: 1.35rem;
+        font-size: 1.3rem;
         overflow: scroll;
-        z-index: 900;
     }
 }
 
@@ -181,11 +176,9 @@
         flex-direction: column;
         padding: 10px;
         line-height: 1.4;
-        color: white;
         font-family: 'Lato', sans-serif;
         font-weight: 600;
-        font-size: 1.35rem;
+        font-size: 1.3rem;
         overflow: scroll;
-        z-index: 900;
     }
 }

@@ -119,7 +119,7 @@
     width: 2px;
     left: 50%;
     top: 0;
-    transition: height 5s linear;
+    transition: height 3s linear;
     transform: translateX(-50%);
     background: yellow;
 }

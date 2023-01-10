@@ -53,6 +53,7 @@ const About = () => {
                     >
                         <div ref={nodeRef} className='about-card' onClick={() => setDisplayFront(!displayFront)}>
                             <div className='about-card-front'>
+                                {/*
                                 {initTyping ?
                                 <TypeWriter
                                     onInit={(typewriter) => {
@@ -63,6 +64,8 @@ const About = () => {
                                         .start();
                                     }}
                                 /> : null}
+                                */}
+                                As an aspiring actor, I am passionate about the art of storytelling and the power of performance to transport audiences to new worlds. I am dedicated to bringing characters to life and connecting with audiences on an emotional level through film, television, and theater. I am constantly working to improve my craft and take on new, challenging roles that allow me to showcase my range and versatility. I am confident that my passion, dedication, and hard work will take me far in this industry and I am excited to see where my journey as an actor will lead me.
                             </div>
                             <div className='about-card-back'>
                                 <CgProfile className='about-icon'/>

@@ -35,10 +35,10 @@ const CV = () => {
                 <div className={`cv-line ${onScreen ? 'cv-line-animate' : ''}`} />
                 <>
                     <div className='cv-dot-1' />
-                    <div className='cv-theatre-title' data-aos='fade-up' data-aos-delay='200'>
+                    <div className='cv-theatre-title' data-aos='fade-up' data-aos-delay='100'>
                         Theatre
                     </div>
-                    <div className='theatre-container' data-aos='fade-up' data-aos-delay='200'>
+                    <div className='theatre-container' data-aos='fade-up' data-aos-delay='100'>
                         <div className='cv-list-left'>
                             <div className='cv-list-item-left'>
                                 A Doll's House Part 2 - Nora - UWF
@@ -66,10 +66,10 @@ const CV = () => {
                 </>
                 <>
                     <div className='cv-dot-2' />
-                    <div className='cv-training-title' data-aos='fade-up' data-aos-delay='200'>
+                    <div className='cv-training-title' data-aos='fade-up' data-aos-delay='100'>
                         Training
                     </div>
-                    <div className='training-container' data-aos='fade-up' data-aos-delay='200'>
+                    <div className='training-container' data-aos='fade-up' data-aos-delay='100'>
                         <div className='cv-list-right'>
                             <div className='cv-list-item-right'>
                                 University of West Florida - Acting - Marci Duncan
@@ -91,10 +91,10 @@ const CV = () => {
                 </>
                 <>
                     <div className='cv-dot-3' />
-                    <div className='cv-skills-title' data-aos='fade-up' data-aos-delay='200'>
+                    <div className='cv-skills-title' data-aos='fade-up' data-aos-delay='100'>
                         Skills
                     </div>
-                    <div className='skills-container' data-aos='fade-up' data-aos-delay='200'>
+                    <div className='skills-container' data-aos='fade-up' data-aos-delay='100'>
                         <div className='cv-list-left'>
                             <div className='cv-list-item-left'>
                                 Athletic: freestyle swimming, boxing, cartwheel/roundoff, football passing, horseback riding, fishing
@@ -110,10 +110,10 @@ const CV = () => {
                 </>
                 <>
                     <div className='cv-dot-4' />
-                    <div className='cv-webmedia-title' data-aos='fade-up' data-aos-delay='200'>
+                    <div className='cv-webmedia-title' data-aos='fade-up' data-aos-delay='100'>
                         Web Media
                     </div>
-                    <div className='webmedia-container' data-aos='fade-up' data-aos-delay='200'>
+                    <div className='webmedia-container' data-aos='fade-up' data-aos-delay='100'>
                         <div className='cv-list-right'>
                             <div className='cv-list-item-right'>
                                 Holiday Hair Show - Hair Model - Dir. Joshua McAllister
