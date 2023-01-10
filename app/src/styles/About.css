@@ -2,7 +2,6 @@
 
 .about-section {
     direction: column;
-    z-index: 40;
 } 
 
 .about-title-container {
@@ -17,7 +16,6 @@
 .about-title {
     font-family: 'Oswald', sans-serif;
     font-size: 3rem;
-    z-index: 39;
     background: yellow;
     color: black;
     padding: 0 20px;
@@ -43,7 +41,6 @@
     transform: translate(-50%, -80%);
     height: 5rem;
     width: 10rem;
-    z-index: 38;
 }
 
 .about-card-container {
@@ -85,6 +82,7 @@
 
 
 .about-card-front, .about-card-back {
+    color: white;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -94,9 +92,11 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border: 5px solid yellow;
+    background: rgba(132, 57, 57, 0);
 }
 
 .about-card-front {
+    z-index: 900;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -109,7 +109,7 @@
 }
 
 .about-card-back {
-
+    z-index: 899;
 }
 
 .about-icon {
