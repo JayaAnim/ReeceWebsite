@@ -45,7 +45,7 @@ const Home = () => {
                 <div className='home-welcome-container'>
                     <div className='home-welcome-line'/>
                     <span className='home-welcome'>
-                        Welcome, I'm
+                        Welcome,
                     </span>
                 </div>
                 <h1 className='home-title'>Reece Cura</h1>
