@@ -93,7 +93,6 @@
     align-items: center;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    background: rgba(18, 18, 18, .75);
     border: 5px solid yellow;
 }
 
