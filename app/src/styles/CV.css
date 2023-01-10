@@ -293,6 +293,7 @@
         left: 8%;
         transform: translateY(-25%);
         padding-left: 5vw;
+        padding-bottom: 3px;
     }
     
     .cv-dot-3 {
@@ -317,6 +318,7 @@
         left: 8%;
         transform: translateY(-25%);
         padding-left: 5vw;
+        padding-bottom: 3px;
     }
 
     .cv-dot-4 {

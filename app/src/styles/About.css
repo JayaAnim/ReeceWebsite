@@ -103,7 +103,7 @@
     line-height: 1.5;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
 }
 
@@ -133,7 +133,7 @@
         line-height: 1.2;
         font-family: 'Lato', sans-serif;
         font-weight: 600;
-        font-size: 1.15rem;
+        font-size: 1.1rem;
         overflow: scroll;
     }
 
@@ -155,7 +155,7 @@
         line-height: 1.4;
         font-family: 'Lato', sans-serif;
         font-weight: 600;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         overflow: scroll;
     }
 }
@@ -177,7 +177,7 @@
         line-height: 1.4;
         font-family: 'Lato', sans-serif;
         font-weight: 600;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         overflow: scroll;
     }
 }
