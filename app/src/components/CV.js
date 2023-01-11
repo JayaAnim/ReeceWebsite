@@ -97,10 +97,10 @@ const CV = () => {
                     <div className='skills-container' data-aos='fade-up' data-aos-delay='100'>
                         <div className='cv-list-left'>
                             <div className='cv-list-item-left'>
-                                Athletic: freestyle swimming, boxing, cartwheel/roundoff, football passing
+                                Athletic: freestyle swimming, boxing, cartwheel, football passing
                             </div>
                             <div className='cv-list-item-left'>
-                                Performance: firearm handling/shooting, pointe ballet, hula hoop
+                                Performance: firearm handling, pointe ballet, hula
                             </div>
                             <div className='cv-list-item-left'>
                                 Language: Southern, New York, Filipino, Vietnamese, English, Aussie dialects
