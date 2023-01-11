@@ -97,7 +97,7 @@ const CV = () => {
                     <div className='skills-container' data-aos='fade-up' data-aos-delay='100'>
                         <div className='cv-list-left'>
                             <div className='cv-list-item-left'>
-                                Athletic: freestyle swimming, boxing, cartwheel/roundoff, football passing, horseback riding, fishing
+                                Athletic: freestyle swimming, boxing, cartwheel/roundoff, football passing
                             </div>
                             <div className='cv-list-item-left'>
                                 Performance: firearm handling/shooting, pointe ballet, hula hoop
