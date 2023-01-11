@@ -6,6 +6,7 @@ import Photos from './components/Photos';
 import CV from './components/CV';
 import Contact from './components/Contact';
 import NavProvider from './context/navContext';
+import Background from './components/Background';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Photos/>
         <CV/>
         <Contact/>
+        <Background/>
       </NavProvider>
     </div>
   );
