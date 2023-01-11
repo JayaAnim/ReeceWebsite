@@ -56,80 +56,109 @@
 .about-card-sub-container {
     width: 70%;
     height: 80%;
-    perspective: 1500px;
 }
 
 .about-card {
     position: relative;
     width: 100%;
     height: 100%;
-    transform-style: preserve-3d;
-    transition: transform 1500ms;
-}
-
-.flip-enter {
-    transform: rotateY(0deg);
-}
-
-.flip-enter-active {
-    transform: rotateY(180deg);
-}
-
-.flip-enter-done {
-    transform: rotateY(180deg);
-}
-
-
-.about-card-front, .about-card-back {
     color: white;
-    position: absolute;
-    height: 100%;
-    width: 100%;
     display: flex;
+    flex-direction: center;
     justify-content: center;
     align-items: center;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border: 5px solid yellow;
-    background: rgba(132, 57, 57, 0);
-}
-
-.about-card-front {
-    z-index: 900;
-    transform: rotateY(180deg);
-    display: flex;
-    flex-direction: column;
+    text-align: center;
+   /* border: 5px solid yellow;*/
     padding: 30px;
+    padding-bottom: 0;
+    padding-top: 0;
     line-height: 1.5;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     font-size: 1.4rem;
-    text-align: center;
 }
 
-.about-card-back {
-    z-index: 899;
+.top-line {
+    position: absolute; 
+    width: 0;
+    height: 5px;
+    top: 0;
+    left: 0;
+    background: yellow;
+    animation: inactiveborder .5s ease-in-out forwards;
 }
 
-.about-icon {
-    font-size: 75px;
-    font-weight: 200;
-    color: yellow;
+div.in-view > .top-line {
+    position: absolute;
+    width: 0%;
+    height: 5px;
+    top: 0;
+    left: 0;
+    background: yellow;
+    animation: activeborder 1s ease-in-out forwards;
 }
+
+.bottom-line {
+    position: absolute; 
+    width: 0;
+    height: 5px;
+    bottom: 0;
+    right: 0;
+    background: yellow;
+    animation: inactiveborder .5s ease-in-out forwards;
+}
+
+div.in-view > .bottom-line {
+    position: absolute;
+    width: 0%;
+    height: 5px;
+    bottom: 0;
+    right: 0;
+    background: yellow;
+    animation: activeborder 1s ease-in-out forwards;
+}
+
+@keyframes activeborder {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes inactiveborder {
+    0% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0%;
+    }
+}
+
 
 /*small length small width */
 @media (max-height: 668px) and (max-width: 650px) {
     .about-card-sub-container {
         width: 90%;
         height: 90%;
-        perspective: 1500px;
     }
 
-    .about-card-front {
-        transform: rotateY(180deg);
+    .about-card {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        color: white;
         display: flex;
-        flex-direction: column;
+        flex-direction: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         padding: 5px;
+        padding-bottom: 0;
+        padding-top: 0;
         line-height: 1.2;
         font-family: 'Lato', sans-serif;
         font-weight: 600;
@@ -144,14 +173,21 @@
     .about-card-sub-container {
         width: 90%;
         height: 100%;
-        perspective: 1500px;
     }
 
-    .about-card-front {
-        transform: rotateY(180deg);
+    .about-card {
+        position: relative;
+        width: 100%;
+        height: 90%;
+        color: white;
         display: flex;
-        flex-direction: column;
+        flex-direction: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         padding: 10px;
+        padding-bottom: 0;
+        padding-top: 0;
         line-height: 1.4;
         font-family: 'Lato', sans-serif;
         font-weight: 600;
@@ -167,13 +203,20 @@
         height: 100%;
         perspective: 1500px;
     }
-    
-    
-    .about-card-front {
-        transform: rotateY(180deg);
+
+    .about-card {
+        position: relative;
+        width: 100%;
+        height: 90%;
+        color: white;
         display: flex;
-        flex-direction: column;
+        flex-direction: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         padding: 10px;
+        padding-bottom: 0;
+        padding-top: 0;
         line-height: 1.4;
         font-family: 'Lato', sans-serif;
         font-weight: 600;
